@@ -591,7 +591,7 @@ font-size: small;
     color: black ;
 }
 /* --------------------------------------------responsive for mobiles----------------------------------------- */
-@media(max-width:650px){
+@media(max-width:768px){
     .navbar-brand{
         display: none !important;
     }
@@ -830,6 +830,10 @@ font-size: small;
     .contents1 ul li input,#content2 ul li input, #content3 ul li input, #content4 ul li input{
         width: 18rem;
        }
+       .subscribetextbox .button{
+        margin-top: 15px;
+       }
+      
 }
 
 @media(min-width:300px) and (max-width:321px){
@@ -842,10 +846,47 @@ font-size: small;
        .card-title{
         font-size: smaller;
        }
+       .subscribetextbox .button{
+        margin-top: 15px;
+       }
+       .leftlogo{
+        width: 150px;
+       }
+       .leftlogo1{
+        width: 60px;
+       }
+       #fare p, .destination a{
+        font-size: x-small;
+       }
 }
-
+@media(min-width:279px) and (max-width:281px){
+#btnbook{
+    width: 59px;
+    font-size: xx-small;
+}
+.contents1 ul li input, #content2 ul li input, #content3 ul li input, #content4 ul li input {
+    width: 13rem;
+}
+.subscribetextbox .button{
+    margin-top: 15px;
+   }
+   #fare p, .destination a{
+    font-size: x-small;
+   }
+}
+@media(min-width:359px) and (max-width:387px){
+    .leftlogo1{
+        width: 60px;
+    }
+    .subscribetextbox .button{
+        margin-top: 15px;
+       }
+       #fare p, .destination a{
+        font-size: small;
+       }
+}
 /* -------------------------------------------------responsive for tablets------------------------------------ */
-@media(min-width:651px) and (max-width:1334px){
+@media(min-width:768px) and (max-width:1334px){
     #stopover{
         width: 100%;
         display: block;
@@ -880,9 +921,20 @@ font-size: small;
     .footersection{
         font-size: x-small;
     }
+    .exceptional{
+        display: block;
+    }
+    .leftpart{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .card{
+        margin: auto;
+    }
+ 
 
 }
-
 
 
 
