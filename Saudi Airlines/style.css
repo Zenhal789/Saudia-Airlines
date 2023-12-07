@@ -411,7 +411,7 @@ width: 100%;
   
   @media screen and (max-width: 768px) {
     .slide-content{
-      margin: 0 10px;
+      margin: 0 25px;
     }
     .swiper-navBtn{
       display: none;
@@ -815,6 +815,15 @@ font-size: small;
 }
 .rightfooter{
     padding: 0 20px;
+}
+#img-sustainability{
+    height: auto;
+}
+.discover button{
+width: 190px;
+}
+#travel{
+    height: auto;
 }
 
 }
