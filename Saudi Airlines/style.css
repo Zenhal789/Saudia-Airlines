@@ -429,7 +429,7 @@ width: 100%;
     text-decoration: underline;
     text-underline-offset: 5px;
     font-family: 'Hedvig Letters Serif', serif;
-    width: 132px;
+    width: auto;
   }
   .fares{
     display: flex;
@@ -590,8 +590,11 @@ font-size: small;
 .leftfooter ul li a{
     color: black ;
 }
+.row{
+    height: 205px;
+}
 /* --------------------------------------------responsive for mobiles----------------------------------------- */
-@media(max-width:768px){
+@media(max-width:767px){
     .navbar-brand{
         display: none !important;
     }
@@ -601,6 +604,9 @@ font-size: small;
         font-weight: 600;
         color: #000;
         background: transparent;
+    }
+    .row{
+        height: auto;
     }
     #navbar{
         transition: all .3s ease-in-out;
@@ -690,7 +696,7 @@ font-size: small;
 
 }
 #drpdwn{
-    width: 100px;
+    width: 180px;
 }
 .exceptional{
     display: block;
@@ -710,6 +716,10 @@ font-size: small;
 }
 .rightpart{
     padding: 30px;
+}
+.card{
+    width: auto;
+    height: auto;
 }
 .card-body{
     padding: 10px !important;
@@ -816,8 +826,10 @@ font-size: small;
 .rightfooter{
     padding: 0 20px;
 }
-#img-sustainability{
-    height: auto;
+#imgsustainability{
+    height: 209px;
+    width: 100%;
+
 }
 .discover button{
 width: 190px;
@@ -941,6 +953,9 @@ width: 190px;
     .card{
         margin: auto;
     }
+    .row{
+        height: auto;
+    }
  
 
 }
@@ -976,3 +991,6 @@ width: 190px;
         font-size: xx-large;
     }
 }
+
+
+
