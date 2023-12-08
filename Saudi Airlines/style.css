@@ -446,7 +446,6 @@ width: 100%;
   .exceptional{
     width: 100%;
     height: auto;
-    /* background-color: #102310; */
     display: flex;
     gap: 20px;
   }
@@ -956,6 +955,20 @@ width: 190px;
     .row{
         height: auto;
     }
+    #imgsustainability{
+        width: 100%;
+        height: 230px;
+    }
+    #down-image img{
+        height: 205px;
+    }
+    .discover button{
+    width: 190px;
+    }
+    #travel{
+        height: 400px;
+    }
+  
  
 
 }
